@@ -46,4 +46,8 @@ class Movie {
     }
 }
 
+// film 1
 $movie_1 = new Movie('I puffi', 'Gargamella', 'smurfs, Gargamella e Birba', 'Fanta-Puffo', 'puffese', 24030, 1492);
+
+// film 2
+$movie_2 = new Movie('Spongebob', 'Signor Capitano', 'pesci', 'animazione', 'romanaccio', 990123, 2021);
