@@ -21,7 +21,7 @@ class Movie {
     public $year;
 
     // constructor
-    function __construct($title, $director, $cast, $genre, $language, $budget, $year) {
+    function __construct(string $title, string $director, string $cast, string $genre, string $language, int $budget, int $year) {
         $this->title = $title;
         $this->director = $director;
         $this->cast = $cast;
@@ -45,3 +45,5 @@ class Movie {
         return $movie;
     }
 }
+
+$movie_1 = new Movie('I puffi', 'Gargamella', 'smurfs, Gargamella e Birba', 'Fanta-Puffo', 'puffese', 24030, 1492);
