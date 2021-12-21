@@ -21,6 +21,12 @@ class Movie {
     public $year;
 
     function __construct($title, $director, $cast, $genre, $language, $budget, $year) {
-
+        $this->title = $title;
+        $this->director = $director;
+        $this->cast = $cast;
+        $this->genre = $genre;
+        $this->language = $language;
+        $this->budget = $budget;
+        $this->year = $year;
     }
 }
