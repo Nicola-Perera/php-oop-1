@@ -18,5 +18,9 @@ class Movie {
     public $genre;
     public $language;
     public $budget;
-    public $releaseYear;
+    public $year;
+
+    function __construct($title, $director, $cast, $genre, $language, $budget, $year) {
+
+    }
 }
