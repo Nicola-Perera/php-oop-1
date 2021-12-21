@@ -20,6 +20,7 @@ class Movie {
     public $budget;
     public $year;
 
+    // constructor
     function __construct($title, $director, $cast, $genre, $language, $budget, $year) {
         $this->title = $title;
         $this->director = $director;
@@ -28,5 +29,19 @@ class Movie {
         $this->language = $language;
         $this->budget = $budget;
         $this->year = $year;
+    }
+
+    // functions
+
+    // retrun main movie info
+    public function getMovie() { 
+        $movie = [
+            $this->title,
+            $this->genre,
+            $this->language,
+            $this->cast
+        ];
+
+        return $movie;
     }
 }
