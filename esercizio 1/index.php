@@ -12,5 +12,11 @@
 <?php
 
 class Movie {
-    
+    public $title;
+    public $director;
+    public $cast;
+    public $genre;
+    public $language;
+    public $budget;
+    public $releaseYear;
 }
