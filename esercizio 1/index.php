@@ -10,3 +10,7 @@
 -->
 
 <?php
+
+class Movie {
+    
+}
