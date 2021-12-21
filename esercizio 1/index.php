@@ -44,6 +44,40 @@ class Movie {
 
         return $movie;
     }
+    //  return movie title
+    public function getTitle() {
+        return $this->title;
+    }
+
+    //  return movie director
+    public function getDirector() {
+        return $this->director;
+    }
+
+    //  return movie cast
+    public function getCast() {
+        return $this->cast;
+    }
+
+    //  return movie genre
+    public function getGenre() {
+        return $this->genre;
+    }
+
+    //  return movie lenguage
+    public function getLenguage() {
+        return $this->lenguage;
+    }
+
+    //  return movie budget
+    public function getBudget() {
+        return $this->budget;
+    }
+
+    //  return movie year
+    public function getYear() {
+        return $this->year;
+    }
 }
 
 // film 1
@@ -51,3 +85,5 @@ $movie_1 = new Movie('I puffi', 'Gargamella', 'smurfs, Gargamella e Birba', 'Fan
 
 // film 2
 $movie_2 = new Movie('Spongebob', 'Signor Capitano', 'pesci', 'animazione', 'romanaccio', 990123, 2021);
+
+var_dump($movie_1, $movie_2);
